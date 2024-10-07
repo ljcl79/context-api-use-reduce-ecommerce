@@ -1,8 +1,11 @@
-# React + Vite
+# Ecommerce Product Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una galería de productos para un ecommerce, desarrollado con **ReactJS**, donde explicamos el uso de **Context API** y **useReducer**. Los datos se obtienen de **FakeStoreAPI**, y el diseño está estilizado utilizando **Tailwind CSS**. Además, se emplean los **Lucide Icons** para mejorar la interfaz visual.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Context API**: Implementación para gestionar el estado global de la aplicación.
+- **useReducer**: Manejo del estado y acciones de manera eficiente, útil para la gestión de la lógica compleja.
+- **FakeStoreAPI**: Fuente de datos de productos simulados para ecommerce.
+- **Tailwind CSS**: Framework CSS para un diseño rápido y eficiente.
+- **Lucide Icons**: Iconos vectoriales ligeros y fáciles de personalizar.
