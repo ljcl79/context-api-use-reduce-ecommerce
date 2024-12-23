@@ -2,6 +2,7 @@ import { Heart } from 'lucide-react'
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { StoreContext } from '../context/StoreContext';
+import PriceTooltip from './PriceTooltip';
 
 const ProductCard = ({ product }) => {
     const navigate = useNavigate();
@@ -40,7 +41,9 @@ const ProductCard = ({ product }) => {
             />
             <h3 className="font-semibold text-lg mb-2 line-clamp-2">{product.title}</h3>
             <p className="text-gray-600 mb-2 line-clamp-2">{product.description}</p>
-            <p className="text-xl font-bold">${product.price}</p>
+            <PriceTooltip price={product.price}>
+                <p className="text-xl font-bold">${product.price}</p>
+            </PriceTooltip>
         </div>
     )
 }
